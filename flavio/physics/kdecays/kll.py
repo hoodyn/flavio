@@ -79,6 +79,7 @@ def amplitudes_LD(par, K, l):
     s2w = par['s2w']
     pre = 2 * ml / mK / s2w
     # numbers extracted from arXiv:1711.11030
+    flavio.citations.register("Chobanova:2017rkj")
     if K == 'KS':
         ASgaga = 2.49e-4 * (-2.821 + 1.216j)
         SLD = pre * ASgaga
